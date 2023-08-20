@@ -600,6 +600,48 @@ button {
 .social-icon {
   fill: var(--cloud);
 }
+
+/* Footer form */
+.footer-form-box {
+}
+
+.footer-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-form-input {
+  width: 264px;
+  height: 40px;
+  top: 140px;
+  left: 828px;
+  border-radius: 4px;
+  border: 1px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  outline: transparent;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+}
+.footer-form-input::placeholder {
+  color: #ffffff;
+}
+
+.footer-btn {
+  padding: 8px 64px 8px 24px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.footer-btn-icon {
+  fill: none;
+  stroke: #ffffff;
+  margin-left: 10px;
+}
+
 /* Modal window*/
 .backdrop {
   position: fixed;
@@ -666,4 +708,39 @@ button {
 .modal-btn-icon {
   cursor: pointer;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+textarea {
+  width: 100%;
+  min-height: 150px;
+  max-height: 250px;
+  resize: none;
+}
+
+/* Modal form */
+.modal-caption {
+}
+
+.modal-form {
+}
+
+.modal-form-label {
+}
+
+.modal-form-field {
+}
+
+.madal-form-input {
+}
+
+.modal-form-icon {
+}
+
+.modal-form-agreement {
+}
+
+.checkbox {
+}
+
+.modal-form-desc {
 }
