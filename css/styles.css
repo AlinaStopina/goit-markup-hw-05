@@ -603,6 +603,7 @@ button {
 
 /* Footer form */
 .footer-form-box {
+  margin: auto;
 }
 
 .footer-form {
