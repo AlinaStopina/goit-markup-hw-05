@@ -730,6 +730,9 @@ textarea {
 }
 
 /* Modal form */
+.modal {
+}
+
 .modal-div {
 }
 
@@ -741,6 +744,7 @@ textarea {
   letter-spacing: 0.02em;
   color: var(--GREY);
   margin-bottom: 16px;
+  padding: 72px 24px 16px;
 }
 
 .modal-form {
@@ -761,6 +765,7 @@ textarea {
 
 .modal-form-field {
   margin-bottom: 8px;
+  padding: 0 24px;
 }
 
 .madal-form-input {
@@ -789,6 +794,7 @@ textarea {
 
 .modal-form-cmt {
   margin-bottom: 16px;
+  padding: 8px 24px 16px;
 }
 
 .modal-form-comment {
@@ -813,6 +819,7 @@ textarea {
 
 .modal-form-checkbox {
   margin-bottom: 24px;
+  padding: 0 24px 24px;
 }
 
 .accept {
@@ -845,6 +852,8 @@ textarea {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+.modal-form-btn {
 }
 
 .modal-form-desc:checked {
