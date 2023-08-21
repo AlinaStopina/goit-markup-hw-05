@@ -823,6 +823,7 @@ textarea {
 }
 
 .modal-form-agreement {
+  color: var(--Iris);
 }
 
 .checkbox:checked {
